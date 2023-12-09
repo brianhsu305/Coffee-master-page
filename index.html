@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Coffee Master</title>
+	</head>
+	<body>
+		<nav>
+			<span class="logo"></span>
+			<p class="title">Coffee Masters</p>
+		</nav>
+		<main>
+			<div class="cards">
+				<div class="card">
+					<h2 class="card-title">items</h2>
+					<div class="card-content">
+						<div class="item">
+							<div class="item-description">
+								<p class="item-quantity">1x</p>
+								<div class="item-details">
+									<h5 class="item-title">Cappuccino</h5>
+									<p class="item-addon">Lite foam</p>
+								</div>
+							</div>
+							<div class="item-price">$3.35</div>
+						</div>
+						<div class="seperator"></div>
+						<div class="item">
+							<div class="item-description">
+								<p class="item-quantity">1x</p>
+								<div class="item-details">
+									<h5 class="item-title">Cappuccino</h5>
+									<p class="item-addon">Lite foam</p>
+									<p class="item-addon">Double espresso</p>
+								</div>
+							</div>
+							<div class="item-price">$3.85</div>
+						</div>
+						<div class="seperator"></div>
+						<div class="item">
+							<div class="item-description">
+								<p class="item-quantity">1x</p>
+								<div class="item-details">
+									<h5 class="item-title">Croissant</h5>
+									<p class="item-addon">Butter</p>
+								</div>
+							</div>
+							<div class="item-price">$2.45</div>
+						</div>
+					</div>
+				</div>
+				<div class="right-content">
+					<div class="card">
+						<h2 class="card-title">name</h2>
+						<div class="card-content">
+							<div class="input-group">
+								<label for="name" class="input-label">Name for order</label>
+								<input type="text" class="input" id="name" placeholder="name" />
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<h2 class="card-title">payment</h2>
+						<div class="card-content payment">
+							<div class="input-group">
+								<label for="card-number" class="input-label">Card number</label>
+								<input type="text" class="input" id="card-number" placeholder="0000 0000 0000 0000" />
+							</div>
+							<div class="input-group">
+								<label for="ccv-number" class="input-label">CCV number</label>
+								<input type="text" class="input" id="ccv-number" placeholder="001" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="price-breakdown">
+				<div class="price-details">
+					<p class="price-title">Subtotal:</p>
+					<p class="price">$9.65</p>
+				</div>
+				<div class="price-details">
+					<p class="price-title">Tax:</p>
+					<p class="price">$0.82</p>
+				</div>
+				<div class="price-details bold">
+					<p class="price-title">Total:</p>
+					<p class="price">$10.47</p>
+				</div>
+                <button class="place-order">Place order</button>
+			</div>
+		</main>
+	</body>
+</html>
